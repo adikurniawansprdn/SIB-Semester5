@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas6 RWD Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="container-fluid p-0">
+    <header>
+      <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/1200/300?random=1" class="d-block w-100" alt="Banner 1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/1200/300?random=2" class="d-block w-100" alt="Banner 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/1200/300?random=3" class="d-block w-100" alt="Banner 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://nfacademy.id">
+          <img src="https://nfacademy.id/favicon.ico" alt="NF Academy" width="20" class="me-2">NF Academy
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a href="home.html" target="mainFrame" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="study.html" target="mainFrame" class="nav-link">MyStudy</a></li>
+            <li class="nav-item"><a href="galery.html" target="mainFrame" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="datatables.html" target="mainFrame" class="nav-link">Datatable</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row mt-3 px-3">
+       <aside class="col-md-3 mb-3">
+  <h5>External Links</h5>
+  <div class="list-group">
+    <a href="https://nfacademy.id" target="_blank" class="list-group-item list-group-item-action">
+      <img src="https://nfacademy.id/favicon.ico" alt="NF Academy" width="20" class="me-2">
+       NF Academy
+    </a>
+    <a href="https://nurulfikri.ac.id" target="_blank" class="list-group-item list-group-item-action">
+        <img src="https://nurulfikri.ac.id/favicon.ico" alt="STT Nurul Fikri" width="20" class="me-2">
+      STT Nurul Fikri
+    </a>
+    <a href="https://getbootstrap.com" target="_blank" class="list-group-item list-group-item-action">
+        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap" width="20" class="me-2">
+      Bootstrap
+    </a>
+    <a href="https://www.w3schools.com" target="_blank" class="list-group-item list-group-item-action">
+              <img src="https://www.w3schools.com/favicon.ico" alt="W3Schools" width="20" class="me-2">
+      W3Schools
+    </a>
+    <a href="https://laravel.com" target="_blank" class="list-group-item list-group-item-action d-flex align-items-center">
+        <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="20" class="me-2">
+        Laravel
+    </a>
+  </div>
+</aside>
+
+
+      <section class="col-md-9">
+        <iframe src="home.html" name="mainFrame" width="100%" height="500px" frameborder="0"></iframe>
+      </section>
+    </div>
+    <footer class="bg-dark text-white mt-3 p-3 text-center">
+      <p>Dibuat oleh AdiKurniawan | © 2025</p>
+       <a href="https://github.com/AdiKurniawanmrn" target="_blank" class="text-white me-2"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/adi-kurniawan-789401293?" target="_blank" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/adikurniawan1171?igsh=MWtoZzB1M3c0NW5nOQ==" class="text-white"><i class="bi bi-instagram"></i></a>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
